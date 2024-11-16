@@ -4,4 +4,8 @@ if (( num %2 ==0 ))
 then
 echo "$num la chan"
 else
-echo "$num is outside the range.
+if (( num %2 !=0))
+then
+echo "$num is le"
+else
+echo "$num khong phai le."
