@@ -1,5 +1,2 @@
-echo "nhap vao 1 so nguyem";
+echo "Enter a number between 10 and 20:";
 read num;
-if (( num %2 ==0 ))
-then
-echo "$num le";
